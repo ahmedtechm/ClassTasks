@@ -1,6 +1,6 @@
 package ClassTask;
 
-/* Given an array of integers, find the two numbers that appear only once in the array.  */
+/* Find the two numbers that appear only once in the array in java .  */
 
 public class FindSingleElement {
 
