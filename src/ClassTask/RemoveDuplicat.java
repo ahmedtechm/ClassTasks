@@ -1,22 +1,29 @@
 package ClassTask;
 
-import java.util.stream.IntStream;
+/*Sort an array of integers while removing the duplicates */
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class RemoveDuplicat {
 
 
 	 public static void main(String[] args) {
 		    
-		 int[] numbers = {0, 0, 1, 1, 3, 3, 4, 4, 2, 5};
+		 int[] arr = {4, 4, 3, 3, 2, 2, 1, 1, 0, 0};
 
-		    int[] result = IntStream.of(numbers)
-		        .distinct()
-		        .sorted()
-		        .toArray();
+		  Set<Integer> set = new HashSet<Integer>();
 
-		    for (int i = 0; i < result.length; i++) {
+		    for (int i = 0; i < arr.length; i++) {
 		    	
-		      System.out.print(result[i] + " ");
+		    	set.add(arr[i]);
 		    }
-		  }
+		    
+		    Integer[] b = set.toArray( new Integer[set.size()]);
+		    	
+		      System.out.print(Arrays.toString(b));
+		      
+		    }
+		  
 		}
