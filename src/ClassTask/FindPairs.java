@@ -20,7 +20,7 @@ public class FindPairs {
 		    
 		    scanner.close();
 		  }
-	
+
 
 		  public static void findPairs(int[] array, int sum) {
 		    HashMap<Integer, Integer> pairs = new HashMap<>();

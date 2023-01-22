@@ -4,7 +4,6 @@ package ClassTask;
 //Input: [1, 5, 9, 3, 7, 8, 2, 4, 6]
 //Output: 7
 
-
 import java.util.Arrays;
 
 public class ThirdHighest {
